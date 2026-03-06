@@ -25,14 +25,14 @@ setInterval(() => {
 
 // ===== 配置 =====
 const CONFIG = {
-  host: 'mi-667c7cd2.axenthost.me',
-  port: 43046,                      // ← 去面板确认当前端口，如果变了改这里！
+  host: 'nolimitanarchy.com',
+  port: 25565,                      // ← 去面板确认当前端口，如果变了改这里！
   version: '1.21',                  // 强制 1.21，避免自动检测出错
   auth: 'offline',
   checkTimeoutInterval: 300000      // 延长到 5 分钟
 };
 
-const BOT_USERNAME = 'EpicAndNoobicIsHere';
+const BOT_USERNAME = 'HostByAI';
 const AUTHME_PASSWORD = process.env.AUTHME_PASSWORD || 'deutschland';
 
 let bot;
