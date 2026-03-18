@@ -32,7 +32,7 @@ const CONFIG = {
   checkTimeoutInterval: 300000
 };
 
-const BOT_USERNAME = 'GrayShulkerBox_BOT';
+const BOT_USERNAME = 'GleidShulkerBot';
 const AUTHME_PASSWORD = process.env.AUTHME_PASSWORD || 'deutschland';
 const ALLOWED_USER = 'black_1816'; // 只允许这个玩家控制 bot
 
