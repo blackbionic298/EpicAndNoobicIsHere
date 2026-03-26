@@ -25,7 +25,7 @@ setInterval(() => {
 
 // ===== 配置 =====
 const CONFIG = {
-  host: 'ua.play.hosting',
+  host: 'umc.play.hosting',
   port: 25565,
   version: '1.21',
   auth: 'offline',
