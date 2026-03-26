@@ -25,14 +25,14 @@ setInterval(() => {
 
 // ===== 配置 =====
 const CONFIG = {
-  host: 'umc.play.hosting',
+  host: 'ua.play.hosting',
   port: 25565,
   version: '1.21',
   auth: 'offline',
   checkTimeoutInterval: 300000
 };
 
-const BOT_USERNAME = 'GleidBot';
+const BOT_USERNAME = 'BaseBot';
 const AUTHME_PASSWORD = process.env.AUTHME_PASSWORD || 'deutschland';
 const ALLOWED_USER = 'black_1816'; // 只允许这个玩家控制 bot
 
@@ -125,8 +125,8 @@ function startBot() {
         }
       }
 
-      if (msgLower === '!home light') {
-        console.log(`[命令] ${username} → !home light → 执行 /tpahere black_1816`);
+      if (msgLower === '!home base') {
+        console.log(`[命令] ${username} → !home base → 执行 /tpahere black_1816`);
         bot.chat('/tpahere black_1816');
       }
     });
